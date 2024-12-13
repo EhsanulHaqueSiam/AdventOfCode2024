@@ -1,11 +1,10 @@
-
 import java.io.File
 import kotlin.math.abs
 
 fun readInput(filename: String): List<String> = File(filename).readLines()
 
 fun main() {
-    val lines = readInput("day01.txt")
+    val lines = readInput("input.txt")
     val (left, right) =
         lines
             .map { line ->
